@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+:root {
+    --primary-color: #FBBF24;
+}
+
+nav{
+    background-color: var(--primary-color);
+    color: antiquewhite;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#inputText {
+    align-self: auto;
+    margin: 0 auto;
+    display: block;
+    height: 20vh;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+button {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: antiquewhite;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem ;
+    text-align: center;
+    color: antiquewhite;
+    border-top-right-radius: 1rem;
+    
+}
